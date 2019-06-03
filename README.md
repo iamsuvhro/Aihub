@@ -11,8 +11,12 @@ A Python package for all Deep learning Developers.
 pip install Aihub-demo
 ```
 
-Following query on terminal will provide you details.
+<p>Try your first Aihub program</p>
+```
+$ python
+```
 
 ```
-import aihub
+>>> from aihub import utils as ut
+>>> ut.neural_network()
 ```
