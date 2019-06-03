@@ -7,5 +7,5 @@ A Python package for all Deep learning Developers.
 Following query on terminal will provide you details.
 
 ```
-import demohub
+import aihub
 ```
