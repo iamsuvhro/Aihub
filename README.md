@@ -12,6 +12,7 @@ pip install Aihub-demo
 ```
 
 <p>Try your first Aihub program</p>
+
 ```
 $ python
 ```
