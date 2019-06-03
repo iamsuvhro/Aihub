@@ -7,7 +7,7 @@ A Python package for all Deep learning Developers.
 
 ## How to Install
 
-```
+```python
 pip install Aihub-demo
 ```
 
