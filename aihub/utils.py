@@ -22,6 +22,13 @@ warnings.filterwarnings("ignore")
 from keras.callbacks import ModelCheckpoint
 
 def graph(x,y,xlabel,ylabel):
+	'''
+	Arguments
+	x = X-axis
+	y= Y-axis
+	xlabel
+	ylabel
+	'''
     plt.plot(x,y)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
