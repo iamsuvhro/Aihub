@@ -20,7 +20,23 @@
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
 </head>
-
+<style >
+p1{
+  color: red;
+}
+p2{
+  color: gray;
+}
+p3{
+  color: #adad85;
+}
+.console{
+  background-color: #f5f5f0;
+  width: 1000px;
+  border-style: solid;
+  border-color: #f5f5f0;
+}
+</style>
 <body>
 
   <!-- Navigation -->
@@ -80,7 +96,24 @@
           <li>
             <strong>Modularity :</strong> A model is understood as a sequence or a graph of standalone, fully configurable modules that can be plugged together with as few restrictions as possible. In particular, neural layers, cost functions, optimizers, initialization schemes, activation functions and regularization schemes are all standalone modules that you can combine to create new models.
           </li>
+          <li>
+            <strong>Easy extensibility :</strong> New modules are simple to add (as new classes and functions), and existing modules provide ample examples. To be able to easily create new modules allows for total expressiveness, making Keras suitable for advanced research.
+          </li>
+          <li>
+            <strong>Work with Python :</strong> No separate models configuration files in a declarative format. Models are described in Python code, which is compact, easier to debug, and allows for ease of extensibility.
+          </li>
         </ul>
+        <br>
+        <h2>Getting started: 30 seconds to Aihub</h2><br>
+        <p>Here is the Neural Network Architecture</p><br>
+           <div class="console">
+            <code>
+          &nbsp;<p3>#importing the library</p3><br>
+          &nbsp;<p2>import</p2> <p1>aihub</p1>&nbsp;as&nbsp;<p1>ai</p1><br>
+          &nbsp;model = ai.neural_network(input_shape,layer_activation,dense_unit,dense_activation,optim,loss_comp)
+          </code>
+        </div>
+        <br><br>
         <h2>Features</h2>
         <br>
         <ul>
