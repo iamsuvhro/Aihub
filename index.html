@@ -119,8 +119,8 @@ p3{
   <input type="text" placeholder="Search..">
   <a href="#about">About</a>
   <a href="#dlnn">Deep Neural Network</a>
-  <a href="#transferlearning">Transfer Learning</a>
-  <a href="#visualization">Visualization</a>
+  <a href="#tl">Transfer Learning</a>
+  <a href="#viz">Visualization</a>
 </div>
   <!-- Page Content -->
   <div class="container">
@@ -223,11 +223,30 @@ p3{
       <div class="console">
         <code>
             &nbsp;<p3>#importing the library</p3><br>
-            &nbsp;<p2>import</p2> <p1>aihub.ai</p1>&nbsp;as&nbsp;<p1>Neural_Network</p1><br>
+            &nbsp;<p2>from</p2> <p1>aihub.ai</p1>&nbsp;import&nbsp;<p1>Neural_Network</p1><br>
             &nbsp;history = Neural_Network(self,input_shape,layer_activation,dense_unit,dense_activation,optim,loss_comp,train_dir,test_dir,epochs,validation_steps,<br>batch_size)<br>
             &nbsp;history.fit()
             </code>
-        </div><br>
+        </div><br><br>
+    <div>
+      <b><h3 id="tl" align="left">Transfer Learning</h3></b>
+      <p>How to use Transfer Learning</p>
+        <b><p>Argument</p></b>
+        <pre>
+          train_data = training dataset
+          val_data = Validation dataset
+          epochs = number of epochs
+          batch_size = batch size
+        </pre>
+        <div class="console">
+          <code>
+            &nbsp;<p3>#importing the library</p3><br>
+            &nbsp;<p2>from</p2> <p1>aihub.transfer_learning</p1>&nbsp;import&nbsp;<p1>tl</p1><br>
+            &nbsp;model = tl.Transfer_Learning(train_data,val_data,epochs,batch_size)<br>
+            </code>
+          </div>
+      </div><br><br>
+
   <!-- /.container -->
 
   <!-- Footer -->
@@ -245,3 +264,4 @@ p3{
 </body>
 
 </html>
+
