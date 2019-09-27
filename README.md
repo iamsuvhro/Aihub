@@ -12,6 +12,7 @@ pip install Aihub-demo
 ```
 
 #### *Try your first Aihub program*
+#### Tutorial
 
 ```
 $ python
